@@ -3,15 +3,16 @@ import Cart from "../CartWidget/CartWidget";
 import ImgLogo from "../../assets/logoSinFondo.png";
 import { Link } from "react-router-dom";
 
-
 export function NavBar() {
-
-
   return (
     <>
       <div className="navbar">
         <Link to="/">
-          <img src={ImgLogo} alt="Tienda Mundial" className="imgTiendaMundial" />
+          <img
+            src={ImgLogo}
+            alt="Tienda Mundial"
+            className="imgTiendaMundial"
+          />
         </Link>
         <ul className="navbar-ul">
           <li>
